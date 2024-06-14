@@ -76,7 +76,7 @@ export const uniqueFiles = [
     title: "Create Unique Collection",
     desc:
       "Set a secondary sales fee and add social links, a description, profile and banner images, and a description.",
-    image: "/image/new.svg",
+    image: "/image/newgit .svg",
   },
   {
     title: "Download NFTs",
