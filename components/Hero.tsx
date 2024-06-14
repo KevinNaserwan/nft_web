@@ -6,14 +6,6 @@ import { motion } from "framer-motion";
 import MagicButton from "./ui/MagicButton";
 import { useInView } from "react-intersection-observer";
 
-// Social items data
-export const socialItems = [
-  { name: "World Arts", count: "30.000" },
-  { name: "Digital Artists", count: "17.000" },
-  { name: "Live Auctions", count: "22.000" },
-  { name: "Unique Products", count: "50.000" },
-];
-
 interface SocialItem {
   name: string;
   count: string;

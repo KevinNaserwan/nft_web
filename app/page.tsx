@@ -1,6 +1,7 @@
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
-import { navItems, socialItems } from "@/data";
+import Popular from "@/components/Popular";
+import { categoryNfts, navItems, Nfts, socialItems } from "@/data";
 import Image from "next/image";
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
       <div className=" max-w-7xl w-full">
         <Navbar navItems={navItems} />
         <Hero socialItems={socialItems} />
+        <Popular categoryNfts={categoryNfts} Nfts={Nfts} />
       </div>
     </main>
   );

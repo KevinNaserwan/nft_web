@@ -2,7 +2,6 @@
 
 import React from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { navItems } from "@/data";
 import Link from "next/link";
 import MagicButton from "./ui/MagicButton";
 
