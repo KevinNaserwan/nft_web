@@ -67,25 +67,25 @@ export const Nfts = [
 
 export const uniqueFiles = [
   {
-    titel: "Set Up Your Wallet",
+    title: "Set Up Your Wallet",
     desc:
       "Connect your wallet to Nico by clicking the wallet icon in the top right corner after you've set it up.",
     image: "/image/wallet.svg",
   },
   {
-    titel: "Create Unique Collection",
+    title: "Create Unique Collection",
     desc:
       "Set a secondary sales fee and add social links, a description, profile and banner images, and a description.",
-    image: "/image/add.svg",
+    image: "/image/new.svg",
   },
   {
-    titel: "Download NFTs",
+    title: "Download NFTs",
     desc:
       "Add a title and description to your work (picture, video, audio, or 3D art), then customize your NFTs with properties.",
     image: "/image/nft.svg",
   },
   {
-    titel: "Put Them Up for Sale",
+    title: "Put Them Up for Sale",
     desc:
       "Auctions, fixed-price listings, and declining-price listings are all options. You decide how you'd like to sell your NFTs.",
     image: "/image/sell.svg",

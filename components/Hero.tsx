@@ -39,22 +39,29 @@ const Hero: React.FC<HeroProps> = ({ socialItems }) => {
           </span>{" "}
           File.
         </motion.div>
-        <motion.p
-          className="font-normal text-white/70 text-xl w-[35vw] pt-8"
+        <motion.div
           initial={{ opacity: 0, x: -20 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.7 }}
         >
-          NFTs are used for digital art and collectibles, GameFi projects,
-          metaverses, and more.
-          <Image
-            src="/image/varnish.svg"
-            alt=""
-            width={84}
-            height={84}
-            className=" relative z-20 top-[10%] left-[100%]"
-          ></Image>
-        </motion.p>
+          <p className="font-normal text-white/70 text-xl w-[35vw] pt-8 pb-8">
+            NFTs are used for digital art and collectibles, GameFi projects,
+            metaverses, and more.
+          </p>
+          <motion.p
+            initial={{ y: 20 }}
+            animate={{ y: [20, 0, 20] }}
+            transition={{ ease: "easeInOut", duration: 3, repeat: Infinity }}
+          >
+            <Image
+              src="/image/varnish.svg"
+              alt=""
+              width={84}
+              height={84}
+              className=" relative z-20 -top-10 left-[60%]"
+            ></Image>
+          </motion.p>
+        </motion.div>
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}

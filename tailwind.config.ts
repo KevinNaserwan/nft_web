@@ -20,6 +20,8 @@ const config: Config = {
         "border-color": "var(--Unnamed-Color, #E50AA7);",
         "bg-button": "var(--Unnamed-Color, rgba(255, 255, 255, 0.05));",
         "blue-color": "#1EE0E1",
+        "second-button":
+          "var(--Unnamed-Color, linear-gradient(90deg, #FFF -106.63%, #1EE0E1 -106.6%, rgba(24, 254, 255, 0.00) 84.92%));",
       },
       animation: {
         shimmer: "shimmer 2s linear infinite",
