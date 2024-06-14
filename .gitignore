@@ -9,6 +9,9 @@
 # testing
 /coverage
 
+# ignore all html files
+*.html
+
 #fonts
 /fonts
 
