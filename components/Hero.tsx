@@ -40,7 +40,7 @@ const Hero: React.FC<HeroProps> = ({ socialItems }) => {
           File.
         </motion.div>
         <motion.p
-          className="font-normal text-white/70 text-xl w-[35vw] pt-8 pb-16"
+          className="font-normal text-white/70 text-xl w-[35vw] pt-8"
           initial={{ opacity: 0, x: -20 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.7 }}
@@ -52,7 +52,7 @@ const Hero: React.FC<HeroProps> = ({ socialItems }) => {
             alt=""
             width={84}
             height={84}
-            className=" absolute top-[20%] left-[40%]"
+            className=" relative z-20 top-[10%] left-[100%]"
           ></Image>
         </motion.p>
         <motion.div
