@@ -136,7 +136,7 @@ const AnimatedCount: React.FC<{ count: number }> = ({ count }) => {
 const CountUpImage: React.FC = () => {
   return (
     <motion.div
-      className="absolute right-0 top-[7%]"
+      className="absolute right-0 top-[3%]"
       initial={{ x: 100, opacity: 0 }}
       animate={{ x: 0, opacity: 1 }}
       transition={{ ease: "easeOut", duration: 0.7 }}
