@@ -9,12 +9,6 @@
 # testing
 /coverage
 
-# ignore all html files
-*.html
-
-#fonts
-/fonts
-
 # next.js
 /.next/
 /out/
