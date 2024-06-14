@@ -47,6 +47,13 @@ const Hero: React.FC<HeroProps> = ({ socialItems }) => {
         >
           NFTs are used for digital art and collectibles, GameFi projects,
           metaverses, and more.
+          <Image
+            src="/image/varnish.svg"
+            alt=""
+            width={84}
+            height={84}
+            className=" absolute top-[20%] left-[40%]"
+          ></Image>
         </motion.p>
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -136,12 +143,15 @@ const AnimatedCount: React.FC<{ count: number }> = ({ count }) => {
 const CountUpImage: React.FC = () => {
   return (
     <motion.div
-      className="absolute right-0 top-[3%]"
+      className="absolute right-0 top-[1%]"
       initial={{ x: 100, opacity: 0 }}
       animate={{ x: 0, opacity: 1 }}
       transition={{ ease: "easeOut", duration: 0.7 }}
     >
-      <Image src="/image/union.png" alt="" width={700} height={700} />
+      <Image src="/image/union.png" alt="" width={800} height={800} />
+      <div className=" bg-[#07003E] absolute z-20 top-[48%] left-[20%] rounded-full text-white p-8 w-[11vw] border border-border-color text-center font-bold text-2xl">
+        Cyber Samurai #177
+      </div>
     </motion.div>
   );
 };
