@@ -43,9 +43,8 @@ const Popular = ({
         transition={{ duration: 1 }}
       >
         {categoryNfts.map((categoryNft: any, idx: number) => (
-          <div className=" relative w-[10vw]">
+          <div className=" relative w-[10vw]" key={`link=${idx}`}>
             <Link
-              key={`link=${idx}`}
               href=""
               className=" block text-white font-light text-[20px] text-center relative z-10"
             >
@@ -63,9 +62,9 @@ const Popular = ({
       </motion.div>
       <motion.div className=" grid grid-cols-3 grid-flow-row gap-8">
         {Nfts.map((Nft: any, idx: number) => (
-          <motion.div whileHover={{ scale: 1.05 }}>
+          <motion.div whileHover={{ scale: 1.05 }} key={`link=${idx}`}>
             <GlareCard>
-              <div className=" flex flex-col p-8" key={`link=${idx}`}>
+              <div className=" flex flex-col p-8">
                 <Image src={Nft.image} width={340} height={100} alt=""></Image>
                 <div className=" flex flex-col py-8">
                   <div className=" flex flex-row justify-between pb-2">
