@@ -1,3 +1,4 @@
+import Category from "@/components/Category";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
 import Popular from "@/components/Popular";
@@ -16,6 +17,7 @@ export default function Home() {
         <Hero socialItems={socialItems} />
         <Popular categoryNfts={categoryNfts} Nfts={Nfts} />
         <Unique uniqueFiles={uniqueFiles} />
+        <Category />
       </div>
     </main>
   );
